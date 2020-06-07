@@ -8,7 +8,12 @@ const signIn = (req, res) => {
   res.render('users/signIn')
 }
 
+const register = (req, res) => {
+  console.log(req.body)
+}
+
 module.exports = {
   signUp,
   signIn,
+  register,
 }
